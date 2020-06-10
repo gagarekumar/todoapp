@@ -1,0 +1,40 @@
+1.npx create-react-app mern-application
+
+
+2.npm init -y
+
+--to install dotenviroment
+--cross origin resource sharing
+--express middleware
+--dotenv is used to load environment variables from .env file to process.env files
+3.npm install express cors mongoose dotenv
+
+4.npm install -g nodemon
+
+To start with frontend development
+they have made changes to app.js
+
+-----install bootstrap with npm installl bootstrap
+----install npm routers
+npm install react-router-dom
+
+
+---to install datepicker
+use npm install react-datepicker
+
+npm i @bit/feathericons.react-feather.file-plus
+
+
+
+
+
+
+
+
+
+
+
+resource used:
+https://github.com/brigand/react-scratch/blob/master/src/tabs/index.js
+to generate code of tab
+

@@ -1,0 +1,36 @@
+.Tabs {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 3px;
+
+  }
+  select{
+      width: 200px;
+  }
+  
+  .Tabs__Tab {
+    display: inline-block;
+    padding: 1em;
+    background: #ededed;
+    color: rgb(5, 8, 7);
+    cursor: pointer;
+  }
+  
+  .alert{
+width: min-content;  }
+  .Tabs__Tab:hover, .Tabs__Tab--active {
+    background: rgb(25, 134, 129);
+    color: white;
+  }
+
+  .Tabs__Underline {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border-bottom: 3px solid orange;
+
+  }
+
+  
+  

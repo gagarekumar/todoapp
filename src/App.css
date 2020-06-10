@@ -1,0 +1,73 @@
+/*
+.sidenav {
+  height: 100%;
+  width: 215px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  
+  background: rgb(95, 105, 98);
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+
+.sidenav a:hover {
+}
+
+.main {
+  margin-left: 0px;
+  padding: 10px 10px;
+  padding-left: 215px;
+  background-image: url("./components/bg.jpg");
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 5px;}
+}
+
+
+*/
+
+.sidenav {
+  height: 100%;
+  width: 209px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  
+  background: rgb(95, 105, 98);
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+
+.sidenav a:hover {
+}
+
+.main {
+  margin-left: 0px; /* Same as the width of the sidenav */
+  padding: 10px 10px;
+  padding-left: 209px;
+  background-image: url("./components/bg.jpg");
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 5px;}
+}
